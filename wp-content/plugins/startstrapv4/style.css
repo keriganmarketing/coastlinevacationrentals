@@ -1,0 +1,217 @@
+/*
+Theme Name: Seriously Creative
+Theme URI: http://underscores.me/
+Author: Kerigan Marketing Associates
+Author URI: http://www.keriganmarketing.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ssv4
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Seriously Creative is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css');*/
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+	margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets. */
+.widget select {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/* Below fold stuff */
+#connect {
+	background:#555;
+}
+#bot {
+	background:#333;
+}
+#bot-bot {
+	background:#555;
+}
+
+/* social media */
+#socialmedia {
+	padding-top: 30px;
+}
+
+.nav-social,
+.social a {
+	display: inline-block !important;
+    height: 30px;
+    width: 30px;
+    text-indent: -10000px;
+    background: url('/wp-content/plugins/ssv4-social-media-links/social-media-sprite-lg.png') no-repeat rgba(0,0,0,.2);
+	background-position: 0 0;
+    background-size: auto 321%;
+    border-radius: 50%;
+    margin: 2px;
+	overflow: hidden !important;
+}
+
+.nav-social { text-indent:100000px !important; margin-bottom: -8px; }
+
+.social .googleplus {
+	background-position: -79px 5px;
+}
+.social .twitter {
+	background-position: -34px 5px;
+}
+.nav-social.facebook,
+.social .facebook {
+	background-position: 10px 5px;
+}
+.social .instagram {
+	background-position: -188px -8px;
+}
+.nav-social.youtube,
+.social .youtube {
+	background-position: -171px 5px;
+}
+.nav-social.linkedin,
+.social .linkedin {
+	background-position: -286px 5px;
+    background-size: auto 300%;
+}
+.social a:hover {
+	background-color:rgba(0,0,0,.4);
+}

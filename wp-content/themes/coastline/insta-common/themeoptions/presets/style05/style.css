@@ -1,0 +1,188 @@
+/*
+* Preset: style05
+* Preset Name: Pacific Coast
+*/
+
+body{background-color:#fff;}
+
+#insta-top-fixed,#insta-footer, #insta-bottom-fixed{background:#004477;}
+#insta-top-fixed .navbar-inverse .brand,
+#insta-top-fixed .navbar-inverse .nav > li > a,
+#insta-top-fixed .navbar-inverse .nav > li > a:focus,
+#insta-top-fixed .navbar-inverse .nav > li > a:hover{color:#fff;text-shadow:none;}
+#insta-top-fixed .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+#insta-top-fixed .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+#insta-top-fixed .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle{background:none;}
+#insta-top-fixed .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+#insta-top-fixed .navbar-inverse .nav li.dropdown > a:hover .caret,
+#insta-top-fixed .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+#insta-top-fixed .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+#insta-top-fixed .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret{border-bottom-color:#fff;border-top-color:#fff;}
+
+#insta-header{position:relative;-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true);}
+
+/* the content */
+.pushdown{margin-top:0;}
+#page{background:url("images/bg.png") repeat-x top center;padding-top:20px;min-height:687px;}
+.custom-background #page{background-image:none;}
+
+.widget_bapi_hp_search .widget-title .glyphicons i:before,
+.widget_bapi_weather_widget .widget-title .glyphicons i:before,
+.widget_bapi_specials_widget .widget-title .glyphicons i:before,
+.widget_bapi__search .widget-title .glyphicons i:before,
+.contact-right-side .glyphicons i:before
+{color:#77AC8F;}
+
+.widget_bapi_featured_properties .fp-title a,
+.widget_bapi_similar_properties .fp-title a
+.list-view-page .property-info h2,
+.list-view-page .property-info h2 a,
+.development-results .portal-info h2,
+.development-results .portal-info h2 a,
+.gallery-view-page .property-title a,
+.item-result .item-info .title
+{color:#77AC8F;}
+
+.widget_bapi_featured_properties .fp-rates,
+.widget_bapi_similar_properties .fp-rates{font-size:15px;}
+
+/* only the detail string */
+.widget_bapi_featured_properties .property-link, 
+.widget_bapi_similar_properties .property-link,
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.item-snapshot .nav-links a
+{color:#1391C6;font-size:15px;line-height:180%;}
+
+/* home page content */
+.hp-content{background:#B4D1C1;padding:35px;}
+.hp-content h1, .hp-content h2, .hp-content h3{background:#77AC8F;color:#fff;display:inline-block;font-weight:normal;padding:5px 18px;}
+.hp-content p{color:#000;font-size:18px;line-height:165%;}
+
+/* fix theme04 
+-------------------------*/
+.home.instatheme04 #page{background:none;}
+.instatheme04 .pushdown.wpadminbarvisible,.instatheme04 .pushdown{margin-top:40px;}
+.instatheme04 #page{padding-top:20px;}
+.instatheme04 .insta-bottom-left-home .widget_bapi_featured_properties .property-link{line-height:180%;}
+
+/* fixes theme02 
+-------------------------*/
+body.instatheme02{background-image:none;}
+.custom-background.instatheme02 #insta-header{background-color:#fff;}
+.instatheme02 #insta-header > .maintainer{background:none;border-bottom:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.instatheme02 #insta-top-fixed .widget_bapi_weather_widget .widget-title .glyphicons i:before,
+.instatheme02 .navbar .brand,
+.home.instatheme02 .widget_bapi_featured_properties .property-link{color:#fff;}
+.instatheme02 .navbar-inverse .navbar-inner,
+.instatheme02 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.instatheme02 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.instatheme02 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle{background:#004477;border-color:#004477;}
+
+/* fixes theme03 
+-------------------------------------*/
+.instatheme03 #page{background:url("images/bg.png") repeat-x top center;padding-top:0;min-height:0;}
+.instatheme03 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#004477;border-color:#004477;color:#FFE87F;}
+.instatheme03 .widget_bapi_property_finders h3 {color:#77AC8F !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#77AC8F !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#77AC8F !important;}
+.instatheme03 h3 {color:#77AC8F;}
+.instatheme03 .widget_bapi_specials_widget .widget-title .glyphicons{color:#77AC8F !important;}
+.instatheme03 .widget_bapi_hp_search .widget-title .glyphicons i:before, .instatheme03 .widget_bapi_weather_widget .widget-title .glyphicons i:before, .instatheme03 .widget_bapi_specials_widget .widget-title .glyphicons i:before, .instatheme03 .widget_bapi__search .widget-title .glyphicons i:before, .instatheme03 .contact-right-side .glyphicons i:before{color:#77AC8F;}
+.instatheme03 .mihp-content h1{color:#77AC8F;}
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#333333;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #999999;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #999999;}
+.instatheme03 #insta-footer .nav h3{color:#77AC8F;}
+.instatheme03 #insta-footer .nav li a{color:#333333;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#333333;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#333333;}
+
+/* fixes theme05
+-------------------------------------*/
+.instatheme05 #insta-header{background:url("images/bg.png") repeat-x top center;}
+body.custom-background #insta-header{background-image:none;}
+.home.instatheme05 #page{padding-top:0;}
+.home.instatheme05 #page .bgwhite{
+-moz-box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+-webkit-box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#1a000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#1a000000,Positive=true);}
+.instatheme05 #insta-header > .row-fluid{
+-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true);}
+.instatheme05 .navbar-inner{background:#004477;border-color:#004477;}
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#004477;border-color:#004477;color:#FFE87F;}
+
+.instatheme05 .navbar-inverse .nav > li > a:hover,
+.instatheme05 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle{background:none;color:#fff;text-shadow:none;}
+
+.instatheme05 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+.instatheme05 .navbar-inverse .nav li.dropdown > a:hover .caret,
+.instatheme05 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.instatheme05 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.instatheme05 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret
+{border-bottom-color:#fff;border-top-color:#fff;}
+
+.instatheme05 .widget_bapi_featured_properties .fp-featured{border-color:#B4D1C1;}
+.instatheme05 .hp-content{background:none;}
+.instatheme05 .hp-content h1,.instatheme05 .hp-content h2,.instatheme05 .hp-content h3{background:none;color:#000;font-weight:bold;width:100%;}
+.instatheme05 .hp-content p{color:#666;font-size:17px;line-height:170%;}
+
+.instatheme05 .home-separator{border-top-color:#B4D1C1;border-bottom-color:#B4D1C1;}
+.instatheme05 .testimonial{background-color:#B4D1C1;}
+.instatheme05 #insta-footer{background:#fff;color:#333;}
+.instatheme05 #insta-footer a,.instatheme05 .widget_bapi_footer .footer-links a{color:#333;}
+
+
+/* fixes theme06 
+-------------------------------------*/
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#004477;border-color:#004477;color:#FFE87F;}
+.instatheme06 .widget_bapi_featured_properties h3,.instatheme06 .widget_insta_latest_blog_posts .widget-title,.instatheme06 .widget_bapi_specials_widget .widget-title,.instatheme06 .hp-testimonials h3,.instatheme06 .widget_bapi_property_finders h3,.instatheme06 #insta-footer .nav h3{color:#77AC8F;}
+.instatheme06 #insta-footer{background: #FFFFFF;}
+.instatheme06 .footer-info{background: #004477;}
+
+
+/* fixes theme07 
+-------------------------------------*/
+.instatheme07 .nav-footer h5,
+.instatheme07 .nav-footer .mr_social_sharing_wrapper{border-top-color:#fff;}
+.instatheme07 .nav-footer{border-bottom-color:#fff;}
+.instatheme07 .pushdown,.instatheme07 .pushdown.wpadminbarvisible{margin-top:40px;}
+.home.instatheme07 .pushdown,.home.instatheme07 .pushdown.wpadminbarvisible{margin-top:0;}
+.home.instatheme07 .home-slideshow{margin-bottom:0;}
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#fff;}
+.instatheme07 .home-qsearch span.cal-icon-trigger{color:#77AC8F;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#77AC8F;}
+
+/* fixes theme08 
+-------------------------------------*/
+.instatheme08 .pushdown,.instatheme08 .pushdown.wpadminbarvisible{margin-top:60px;}
+.home.instatheme08 .pushdown,.home.instatheme08 .pushdown.wpadminbarvisible{margin-top:0;}
+.home.instatheme08 .home-slideshow{margin-bottom:0;}
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#fff;}
+.instatheme08 .home-qsearch span.cal-icon-trigger{color:#77AC8F;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#77AC8F;}
+.instatheme08 .hp-content{background:none;}
+.instatheme08 .hp-content h1{background:none;color:#000;}
+.instatheme08 .hp-content p{color:#666;}
+.instatheme08 .testimonials .author h3{color:#77AC8F;}
+.instatheme08 .block-photo img{background:#fff;}
+
+/* fixes theme09 
+-------------------------------------*/
+.instatheme09 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#004477;border-color:#004477;color:#FFE87F;}
+.instatheme09 .navbar-inner, .instatheme09 #navigation{background:#004477;border-color:#004477;}
+.instatheme09 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle{background-color:#004477;}
+.instatheme09 .hp-content, .instatheme09 .hp-content h1{background:#FFF;text-align:center;}
+.instatheme09 .hp-content h1, .instatheme09 .widget_bapi_featured_properties h3, .instatheme09 .widget_bapi_property_finders h3, .instatheme09 .widget-title .glyphicons{color:#77AC8F;}
+

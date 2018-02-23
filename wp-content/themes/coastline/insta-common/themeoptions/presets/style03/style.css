@@ -1,0 +1,286 @@
+/*
+* Preset: style03
+* Preset Name: Family Getaway
+*/
+
+body{background-image:-moz-linear-gradient(50% 0% -90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%); 
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(18,145,198)),color-stop(1, rgb(18,145,198)));
+background-image:-webkit-linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+background-image:-o-linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+background-image:-ms-linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+background-image:linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff1291c6,endColorstr=#ff1291c6,GradientType=0)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff1291c6,endColorstr=#ff1291c6,GradientType=0);}
+body.custom-background{background-image:none;}
+
+#insta-top-fixed{background:#fff;color:#333;}
+#insta-top-fixed .top-links a,
+#insta-top-fixed .top-links a:hover,
+#insta-top-fixed .halflings.white i:before{color:#333;}
+#insta-top-fixed .top-links .caret{border-bottom-color:#333;border-top-color:#333;}
+#insta-top-fixed .top-links #wishListLink .halflings i:before{color:#D90000;}
+#insta-top-fixed .navbar-inverse .brand, .navbar-inverse .nav > li > a,
+#insta-top-fixed .navbar-inverse .nav > li > a:focus,
+#insta-top-fixed .navbar-inverse .nav > li > a:hover,.dropdown-menu li > a{color:#1391C6;text-shadow:none;}
+#insta-top-fixed .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+#insta-top-fixed .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+#insta-top-fixed .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle{background:none;color:#1391C6;}
+#insta-top-fixed .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+#insta-top-fixed .navbar-inverse .nav li.dropdown > a:hover .caret,
+#insta-top-fixed .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+#insta-top-fixed .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+#insta-top-fixed .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret,
+#insta-top-fixed .top-links .caret{border-bottom-color:#162F4A;border-top-color:#162F4A;}
+
+#insta-header{background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true)";
+filter:	progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true);}
+
+.home-slideshow{border:3px solid #fff;-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.4);box-shadow:0 0 4px rgba(0, 0, 0, 0.4);}
+
+/* only the detail string */
+.widget_bapi_featured_properties .property-link, 
+.widget_bapi_similar_properties .property-link,
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.item-snapshot .nav-links a
+{color:#1391C6;}
+
+/* outside main titles and text */
+.home .widget_bapi_featured_properties .widget-title,
+.home .widget_bapi_property_finders .widget-title,
+article > header > h1,
+article .propertyfinders-results h1,
+article > .row-fluid > .span12 > p,
+.widget_bapi_similar_properties .widget-title,
+.other-detail-page article > h3{color:#fff;}
+
+.static-page article > .row-fluid > .span12 > p{color:#333;}
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content p{color:#666;font-size:18px;line-height:150%;}
+
+#insta-footer, #insta-bottom-fixed{background:none;}
+
+/* fixes theme02 
+------------------------*/
+.instatheme02 #insta-header{position:relative;}
+.instatheme02 #insta-header > .maintainer{background:none;border-bottom:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.instatheme02 #insta-top-fixed .widget_bapi_weather_widget,
+.instatheme02 .home .widget_bapi_featured_properties .widget-title,
+.instatheme02 .home .widget_bapi_property_finders .widget-title,
+.instatheme02 article > header > h1,
+.instatheme02 article .propertyfinders-results h1,
+.instatheme02 article > .row-fluid > .span12 > p,
+.instatheme02 .other-detail-page article > h3{color:#333;}
+.home.instatheme02 .widget_bapi_featured_properties .property-link{color:#fff;}
+
+/* fixes theme03 
+-------------------------------------*/
+
+body {background-image:-moz-linear-gradient(50% 0% -90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%); 
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(18,145,198)),color-stop(1, rgb(18,145,198)));
+background-image:-webkit-linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+background-image:-o-linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+background-image:-ms-linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+background-image:linear-gradient(-90deg,rgb(18,145,198) 0%,rgb(18,145,198) 100%);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff1291c6,endColorstr=#ff1291c6,GradientType=0)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff1291c6,endColorstr=#ff1291c6,GradientType=0);}
+body.custom-background{background-image:none;}
+
+.instatheme03 .navbar-inverse .brand, .instatheme03 .navbar-inverse .nav > li > a{color:#333333;}
+.instatheme03 .navbar-inverse .nav > li > a:focus, .instatheme012 .navbar-inverse .nav > li > a:hover{color:#333333 !important;}
+
+
+.instatheme03 #insta-top-fixed{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 50%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 50%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+border:none;
+}
+
+.instatheme03 .home-slideshow{border:none;}
+
+.instatheme03 .widget_bapi_property_finders h3 {color:#1291C6 !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#1291C6 !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#1291C6 !important;}
+.instatheme03 h3 {color:#1291C6;}
+.instatheme03 .widget_bapi_specials_widget .widget-title .glyphicons{color:#1291C6;}
+.instatheme03 .mihp-content h1{color:#1291C6;}
+.instatheme03 .mihp-content {color:#666666;}
+.instatheme03 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #a3d900; /* Old browsers */
+background: -moz-linear-gradient(top,  #a3d900 5%, #59b200 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#a3d900), color-stop(10%,#59b200)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* IE10+ */
+background: linear-gradient(to bottom,  #a3d900 5%,#59b200 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3d900', endColorstr='#59b200',GradientType=0 ); /* IE6-9 */
+border-color:#468C00;}
+
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#FFFFFF;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #FFFFFF;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #FFFFFF;}
+.instatheme03 #insta-footer .nav h3{color:#FFFFFF !important;}
+.instatheme03 #insta-footer .nav li a{color:#FFFFFF;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#FFFFFF;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#FFFFFF;}
+
+/* fixes theme05 
+-------------------------------------*/
+.instatheme05 .home-slideshow{border:none;}
+.instatheme05 #insta-header{background:none;}
+.instatheme05 #insta-header > .row-fluid{
+-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+box-shadow:0px 0px 5px rgba(0,0,0,0.4);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true);}
+.instatheme05 .navbar{position:relative;}
+.instatheme05 .navbar-inner{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 48%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(48%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+-moz-box-shadow:0 0 3px #ddd;-webkit-box-shadow:0 0 3px #ddd;box-shadow:0 0 3px #ddd;border-color:#ddd;}
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#468C00;border-color:#468C00;}
+
+.instatheme05 .navbar-inverse .nav > li > a:hover,
+.instatheme05 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle{background:none;color:#1391C6;text-shadow:none;}
+
+.instatheme05 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+.instatheme05 .navbar-inverse .nav li.dropdown > a:hover .caret,
+.instatheme05 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.instatheme05 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.instatheme05 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret
+{border-bottom-color:#162F4A;border-top-color:#162F4A;}
+
+
+/* fixes theme06 
+-------------------------------------*/
+.instatheme06 #insta-top-fixed,.instatheme06 .navbar-inverse .navbar-inner,.instatheme06 .footer-info{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 50%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 50%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+border:none;
+}
+.instatheme06 #insta-header{background:#fff;}
+.instatheme06 .navbar-inverse .brand{color:#000;}
+.instatheme06 #insta-footer .nav li a,.instatheme06 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#fff;}
+.instatheme06 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,.instatheme06 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret:hover{border-top-color:#000;}
+.instatheme06 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle{color:#000;background-color:#fff;}
+.instatheme06 #insta-footer .nav h3,.instatheme06 .widget_bapi_footer .footer-links a{color:#fff;}
+.instatheme06 .widget_bapi_footer{border-top:1px solid #fff;}
+.instatheme06 .nav>li>a,.instatheme06 .nav>li>a:hover,.instatheme06 .footer-info p{color: #000;}
+.instatheme06 .footer-info p a {color:#6D6D6D;}
+.instatheme06 .widget_bapi_featured_properties .widget-title,.instatheme06 .widget_insta_latest_blog_posts .widget-title, .instatheme06 .MR_Social_Sharing_Toolkit_Widget .widget-title,.instatheme06 .widget_bapi_specials_widget .widget-title, .instatheme06 .hp-testimonials h3,.instatheme06 .widget_bapi_property_finders .widget-title{color:#1291c6;}
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #a3d900; /* Old browsers */
+background: -moz-linear-gradient(top,  #a3d900 5%, #59b200 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#a3d900), color-stop(10%,#59b200)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* IE10+ */
+background: linear-gradient(to bottom,  #a3d900 5%,#59b200 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3d900', endColorstr='#59b200',GradientType=0 ); /* IE6-9 */
+border-color:#468C00;}
+.instatheme06 .footer-info{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 50%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 50%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 50%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px;box-shadow:0 0 2px rgba(0,0,0,0.5);-moz-box-shadow:0 0 2px rgba(0,0,0,0.5);-webkit-box-shadow:0 0 2px rgba(0,0,0,0.5);}
+
+
+/* fixes theme07 
+-------------------------------------*/
+.instatheme07 .nav-footer h5,
+.instatheme07 .nav-footer .mr_social_sharing_wrapper{border-top-color:#fff;}
+.instatheme07 .nav-footer{border-bottom-color:#fff;}
+.instatheme07 #insta-top-fixed{
+-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true)";
+filter:	progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#66000000,Positive=true);}
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#162F4A;}
+.instatheme07 .home-qsearch span.cal-icon-trigger{color:#1391C6;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#1391C6;}
+.instatheme07 .home-slideshow{border:none;}
+
+/* fixes theme08 
+-------------------------------------*/
+.instatheme08 #insta-top-fixed,.instatheme08 #insta-footer{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 48%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(48%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+box-shadow:0px 0px 4px rgba(0,0,0,0.4);}
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#162F4A;}
+.instatheme08 .home-slideshow{border:none;}
+.instatheme08 #insta-footer,.instatheme08 .widget_bapi_footer .footer-links a{color:#444;}
+.instatheme08 .bottom-full-home h3 span{color:#fff;background:#1291c6;}
+.instatheme08 .hp-content{background:none;color:#fff;}
+.instatheme08 .block-photo img,.instatheme08 .testimonials .content{background:#fff;}
+.instatheme08 .hp-content h1,.instatheme08 .hp-content p,.instatheme08 .block-photo,.instatheme08 .block-photo h3,.instatheme08 .testimonials h1,.instatheme08 .testimonials h2,.instatheme08 .testimonials .author h3,.instatheme08 .testimonials .author p{color:#fff;}
+
+
+/* fixes theme09 
+-------------------------------------*/
+.instatheme09 #insta-header{background:#fff;}
+.instatheme09 .widget_bapi_weather_widget{background:none;}
+.instatheme09 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{
+background: #a3d900; /* Old browsers */
+background: -moz-linear-gradient(top,  #a3d900 5%, #59b200 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#a3d900), color-stop(10%,#59b200)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a3d900 5%,#59b200 10%); /* IE10+ */
+background: linear-gradient(to bottom,  #a3d900 5%,#59b200 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3d900', endColorstr='#59b200',GradientType=0 ); /* IE6-9 */
+border-color:#468C00;
+}
+.instatheme09 #navigation, .instatheme09 .navbar-inverse .navbar-inner{
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 48%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(48%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;
+}
+.instatheme09 .navbar-inverse .nav>li>a:hover, .instatheme09 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle, .instatheme09 .navbar-inverse .nav>li>a:focus, .instatheme09 .hp-content h1, .instatheme09 .widget_bapi_property_finders .widget-title, .instatheme09 .widget_bapi_featured_properties .widget-title, .instatheme09 .widget_bapi_specials_widget .widget-title, .instatheme09 .widget_insta_latest_blog_posts .widget-title{color:#1391C6;}
+.instatheme09 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle{background-color:#D3D3D3;}
+.instatheme09 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret{border-top-color:#1391C6;border-bottom-color:#1391C6;}
+

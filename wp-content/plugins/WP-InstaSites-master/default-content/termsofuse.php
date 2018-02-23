@@ -1,0 +1,1 @@
+[doctemplate docname="Terms of Use"]

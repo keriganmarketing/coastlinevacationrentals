@@ -1,0 +1,182 @@
+/*
+* Preset: style04
+* Preset Name: Big City
+*/
+body{background-color:#000;}
+
+#insta-header{background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 48%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(48%,#ffffff), color-stop(100%,#e5e5e5));
+background: -webkit-linear-gradient(top,  #ffffff 48%,#e5e5e5 100%);
+background: -o-linear-gradient(top,  #ffffff 48%,#e5e5e5 100%);
+background: -ms-linear-gradient(top,  #ffffff 48%,#e5e5e5 100%);
+background: linear-gradient(to bottom,  #ffffff 48%,#e5e5e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.65);
+-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.65);
+box-shadow:0px 0px 4px rgba(0,0,0,0.65);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#a6000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#a6000000,Positive=true);}
+
+.contact-form .widget-title,
+.widget_bapi_hp_search .widget-title,
+.bapi-inquiryform h3,.contact-right-side h3,.development-details h3,
+.widget .widget-title{font:normal 25px/100% "Trebuchet MS", Arial, Helvetica, sans-serif;color:#222;}
+
+/* booking page titles */
+.bapi-bookingform h1,.booking-form legend,.modal-header h3,.booking-page .notes_2,.booking-page .headset{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;color:#222;}
+
+/* links and detail string plus arrow */
+a,
+.widget_bapi_featured_properties .property-link, 
+.widget_bapi_similar_properties .property-link,
+.widget_bapi_featured_properties .property-link span,
+.widget_bapi_similar_properties .property-link span,
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.portal-info a.property-link span,
+.portal-info a.detail-link span,
+.item-snapshot .nav-links a,
+.item-snapshot .nav-links a span,
+.gallery-view-page .portal-info a.property-link{color:#B89142;}
+
+/* outside main titles and text */
+.home .widget_bapi_featured_properties .widget-title,
+.home .widget_bapi_property_finders .widget-title,
+article > header > h1,
+article .propertyfinders-results h1,
+article > .row-fluid > .span12 > p,
+.widget_bapi_similar_properties .widget-title,
+.other-detail-page article > h3{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;color:#ccc;}
+
+.default-page article > header > h1{color:#333}
+.static-page article > .row-fluid > .span12 > p{color:#333;}
+
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content h1,.hp-content h2,.hp-content h3{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.hp-content p{font-family:"Times New Roman", Times, serif;color:#333;font-size:16px;line-height:150%;}
+
+/* fixes theme02 
+----------------------*/
+body.instatheme02{background-image:none;}
+.instatheme02 #insta-header{position:relative;}
+.instatheme02 #insta-header > .maintainer,
+.instatheme02 #main{background:none;border-bottom:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+
+.instatheme02 .default-page .row-fluid > .span9,
+.instatheme02 .static-page .full-width-page .row-fluid > .span12,
+.instatheme02 .static-page .other-detail-page .row-fluid > .span9,
+.instatheme02 .static-page .other-detail-page .row-fluid > .span6,
+.instatheme02 .static-page .content-page .row-fluid > .span12,
+.instatheme02 .static-page .content-page .row-fluid > .span9,
+.instatheme02 .static-page .content-page .row-fluid > .span6,
+.instatheme02 .static-page .property-detail-page .row-fluid > .span6,
+.instatheme02 .static-page .property-detail-page .row-fluid > .span9,
+.instatheme02 .static-page .search-page .row-fluid > .span12,
+.instatheme02 .static-page .search-page .row-fluid > .span9,
+.instatheme02 .static-page .search-page .row-fluid > .span6{background:#fff;padding:20px;}
+.instatheme02 #insta-top-fixed .widget_bapi_weather_widget .widget-title .glyphicons i:before{color:#fff;}
+
+/* fixes theme03 
+-------------------------------------*/
+
+.instatheme03 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #c6a766; /* Old browsers */
+background: -moz-linear-gradient(top,  #c6a766 5%, #b89142 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#c6a766), color-stop(10%,#b89142)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* IE10+ */
+background: linear-gradient(to bottom,  #c6a766 5%,#b89142 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6a766', endColorstr='#b89142',GradientType=0 ); /* IE6-9 */
+border-color:#A5833A;}
+
+
+
+
+.instatheme03 .widget_bapi_property_finders h3 {color:#CCCCCC !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#CCCCCC !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#000000 !important;}
+.instatheme03 h3 {color:#000000;}
+.instatheme03 .widget_bapi_specials_widget .widget-title .glyphicons{color:#000;}
+.instatheme03 .mihp-content h1{color:#000000;}
+.instatheme03 .mihp-content {color:#666666;}
+
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#FFFFFF;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #999999;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #999999;}
+.instatheme03 #insta-footer .nav h3{color:#FFFFFF !important;}
+.instatheme03 #insta-footer .nav li a{color:#FFFFFF;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#FFFFFF;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#FFFFFF;}
+
+
+
+/* fixes theme05
+----------------------*/
+.instatheme05 #insta-header{background:none;}
+.instatheme05 #insta-header > .bgwhite{background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 48%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(48%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 48%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */}
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#A5833A;border-color:#A5833A;}
+.home.instatheme05 .widget_bapi_featured_properties .widget-title,.home.instatheme05 .widget_bapi_property_finders .widget-title{color:#000;}
+
+
+/* fixes theme06 
+-------------------------------------*/
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #c6a766; /* Old browsers */
+background: -moz-linear-gradient(top,  #c6a766 5%, #b89142 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#c6a766), color-stop(10%,#b89142)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* IE10+ */
+background: linear-gradient(to bottom,  #c6a766 5%,#b89142 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6a766', endColorstr='#b89142',GradientType=0 ); /* IE6-9 */
+border-color:#A5833A;}
+.instatheme06 .widget_bapi_featured_properties .widget-title,.instatheme06 .hp-testimonials h3,.instatheme06 .widget_bapi_specials_widget .widget-title{color:#000;font-size:14px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;line-height:100%;}
+.instatheme06 #insta-footer .nav h3,.instatheme06 .widget_bapi_footer .footer-links a{color: #FFFFFF;}
+.instatheme06 #insta-footer .nav li a,.instatheme06 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#fff;}
+.instatheme06 .MR_Social_Sharing_Toolkit_Widget .widget-title{padding-bottom:10px;padding-top:10px;}
+
+/* fixes theme07 
+-------------------------------------*/
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme07 .home-qsearch span.cal-icon-trigger{color:#B89142;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#B89142;}
+
+/* fixes theme08 
+-------------------------------------*/
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme08 .home-qsearch span.cal-icon-trigger{color:#B89142;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#B89142;}
+
+.instatheme08 .bottom-full-home h3 span{color:#fff;background:#000;}
+.instatheme08 .hp-content{background:none;color:#fff;}
+.instatheme08 .block-photo img,.instatheme08 .testimonials .content{background:#fff;}
+.instatheme08 .hp-content h1,.instatheme08 .hp-content p,.instatheme08 .block-photo,.instatheme08 .block-photo h3,.instatheme08 .testimonials h1,.instatheme08 .testimonials h2,.instatheme08 .testimonials .author h3,.instatheme08 .testimonials .author p{color:#fff;}
+
+
+/* fixes theme09 
+-------------------------------------*/
+.instatheme09 #insta-header{background:#fff;}
+.instatheme09 .widget_bapi_weather_widget{background:none;}
+.instatheme09 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{
+background: #c6a766; /* Old browsers */
+background: -moz-linear-gradient(top,  #c6a766 5%, #b89142 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#c6a766), color-stop(10%,#b89142)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #c6a766 5%,#b89142 10%); /* IE10+ */
+background: linear-gradient(to bottom,  #c6a766 5%,#b89142 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6a766', endColorstr='#b89142',GradientType=0 ); /* IE6-9 */
+border-color:#A5833A;
+}
+.instatheme09 #navigation, .instatheme09 .navbar-inverse .navbar-inner{
+box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;
+}
+

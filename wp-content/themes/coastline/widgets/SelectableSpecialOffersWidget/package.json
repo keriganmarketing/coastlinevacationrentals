@@ -1,0 +1,11 @@
+{
+  "name": "specialofferswidget",
+  "version": "1.0.0",
+  "description": "This widget adds the possibility to select and sort which Special offers to find in  it.",
+  "main": "init.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

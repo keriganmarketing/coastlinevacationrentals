@@ -1,0 +1,133 @@
+/*
+* Preset: style08
+* Preset Name: Lake Cabin
+*/
+body{background:#ededed;}
+#insta-header{position:relative;-moz-box-shadow:0px 4px 4px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 4px 4px rgba(0,0,0,0.4);
+box-shadow:0px 4px 4px rgba(0,0,0,0.4);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=4,Color=#66000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=4,Color=#66000000,Positive=true);}
+
+/* the content */
+.pushdown{margin-top:0;}
+#page{background:url("images/bg.jpg") repeat-x top center;padding-top:20px;min-height:400px;}
+.custom-background #page{background-image:none;}
+
+.home-slideshow{border:3px solid #fff;-moz-box-shadow:0 2px 21px 0 rgba(0,0,0,0.65);
+-webkit-box-shadow:0 2px 21px 0 rgba(0,0,0,0.65);
+box-shadow:0 2px 21px 0 rgba(0,0,0,0.65);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true);}
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content p{color:#333;font-size:16px;line-height:200%;}
+
+#insta-footer, #insta-bottom-fixed,#insta-footer .widget_bapi_footer .footer-links a,#insta-footer .halflings i:before,#insta-footer .top-links a,#insta-footer .top-links a:hover{color:#C18F67}
+#insta-footer .top-links .caret{border-bottom-color:#C18F67;border-top-color:#C18F67;}
+
+/* links and detail string arrow */
+a,
+.widget_bapi_featured_properties .property-link span,
+.widget_bapi_similar_properties .property-link span,
+.portal-info a.property-link span,
+.portal-info a.detail-link span,
+.item-snapshot .nav-links a span,
+.gallery-view-page .portal-info a.property-link span{color:#468C00;}
+
+/* fix theme04 
+------------------------------*/
+.home.instatheme04 #page{background:none;}
+.instatheme04 .pushdown.wpadminbarvisible,.instatheme04 .pushdown{margin-top:40px;}
+.instatheme04 #page{padding-top:20px;}
+
+/* fixes theme02 
+------------------------------*/
+body.instatheme02{background-image:none;}
+.instatheme02 #insta-header{background:#fff;}
+.instatheme02 #insta-header > .maintainer{background:none;border-bottom:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.home.instatheme02 .widget_bapi_featured_properties .property-link{color:#fff;}
+.instatheme02 .home-slideshow{border:3px solid #fff;-moz-box-shadow:0 2px 7px 0 rgba(0,0,0,0.65);
+-webkit-box-shadow:0 2px 7px 0 rgba(0,0,0,0.65);
+box-shadow:0 2px 7px 0 rgba(0,0,0,0.65);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2,OffY=2,Color=#a6000000,Positive=true);}
+
+/* fixes theme03 
+-------------------------------------*/
+
+.instatheme03 #page{background:none;padding-top:0;min-height:0;}
+.instatheme03 .home-slideshow{border:none;}
+.instatheme03 .home-qsearch .search-button-block .quicksearch-dosearch{background:#468C00;border-color:#468C00;}
+.instatheme03 .widget_bapi_property_finders h3 {color:#468C00 !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#468C00 !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#468C00 !important;}
+.instatheme03 h3 {color:#468C00 !important;}
+.instatheme03 .mihp-content h1{color:#468C00;}
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#333333;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #999999;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #999999;}
+.instatheme03 #insta-footer .nav h3{color:#468C00;}
+.instatheme03 #insta-footer .nav li a{color:#333333;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#333333 !important;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#333333;}
+
+/* fixes theme05
+-------------------------------------*/
+.instatheme05 #page{background:none;}
+.home.instatheme05 #page{padding-top:0;}
+.instatheme05 #insta-header{background:url("images/bg.jpg") repeat-x top center;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;filter:none;}
+body.custom-background #insta-header{background-image:none;}
+
+.instatheme05 .home-slideshow{border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;filter:none;}
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#468C00;border-color:#468C00;color:#fff;}
+.instatheme05 .testimonial{border-bottom:1px solid #d4d4d4;}
+.instatheme05 #insta-footer{background:transparent;color:#333;}
+.instatheme05 #insta-footer a,.instatheme05 #insta-footer .widget_bapi_footer .footer-links a{color:#333;}
+
+/* fixes theme06 
+-------------------------------------*/
+.instatheme06 .home-qsearch .search-button-block .quicksearch-dosearch{background:#468C00;border-color:#468C00;}
+.instatheme06 .widget_bapi_featured_properties h3,.instatheme06 .widget_insta_latest_blog_posts .widget-title, .instatheme06 .MR_Social_Sharing_Toolkit_Widget .widget-title,.instatheme06 .widget_bapi_specials_widget .widget-title,.instatheme06 .hp-testimonials h3,.instatheme06 .widget_bapi_property_finders h3,.instatheme06 #insta-footer .nav h3{color:#468C00;}
+.instatheme06 .widget_bapi_footer .footer-links a{color:#333!important;}
+
+/* fixes theme07 
+-------------------------------------*/
+.instatheme07 .nav-footer h5,.instatheme07 .nav-footer ul li a,
+.instatheme07 .nav-footer .mr_social_sharing_wrapper a{color:#C18F67;}
+.instatheme07 .pushdown,.instatheme07 .pushdown.wpadminbarvisible{margin-top:40px;}
+
+.instatheme07 .home-slideshow{border:none;margin-bottom:0;}
+.home.instatheme07 .pushdown,.home.instatheme07 .pushdown.wpadminbarvisible{margin-top:0;}
+.home.instatheme07 #page{background:none;}
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme07 .home-qsearch span.cal-icon-trigger{color:#468C00;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#468C00;}
+
+/* fixes theme08 
+-------------------------------------*/
+.instatheme08 .pushdown,.instatheme08 .pushdown.wpadminbarvisible{margin-top:60px;}
+.home.instatheme08 .pushdown,.home.instatheme08 .pushdown.wpadminbarvisible{margin-top:0;}
+
+.instatheme08 .home-qsearch #bapi-search{background:#000;}
+.instatheme08 .bottom-full-home h3{background-image:url("images/bg-title-h3-black.png");}
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme08 .home-qsearch span.cal-icon-trigger{color:#468C00;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#468C00;}
+
+.home.instatheme08 #page{background:none;}
+.instatheme08 .hp-content{background:none;}
+.instatheme08 .testimonials h2{color:#222;}
+.instatheme08 .testimonials .author h3{color:#468C00;}
+.instatheme08 .block-photo img,.instatheme08 .testimonials .content{background:#fff;}
+.instatheme08 .bottom-full-home h3 span{background:#ededed;}
+.instatheme08 .home-slideshow{margin-bottom:0;}
+.instatheme08 .home-slideshow{border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-ms-filter:none;filter:none;}
+
+
+/* fixes theme09 
+-------------------------------------*/
+.instatheme09 .widget_bapi_weather_widget{background:none;}
+.instatheme09 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#468C00;border-color:#468C00;}
+.instatheme09 .hp-content h1, .instatheme09 .widget_bapi_featured_properties h3, .instatheme09 .widget_bapi_property_finders h3, .instatheme09 .widget-title .glyphicons{color:#468C00;}
+

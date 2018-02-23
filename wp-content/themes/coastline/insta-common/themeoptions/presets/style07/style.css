@@ -1,0 +1,129 @@
+/*
+* Preset: style07
+* Preset Name: Ski Mountain
+*/
+body{background:url("images/bg.jpg") repeat-x left top #748ca4;}
+body.custom-background{background:none;}
+
+#insta-header{background:none;padding: 20px 20px 0;}
+.home-slideshow{border:3px solid #fff;-moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.4);box-shadow:0 0 4px rgba(0, 0, 0, 0.4);}
+
+/* outside main titles and text */
+.home .widget_bapi_featured_properties .widget-title,
+.home .widget_bapi_property_finders .widget-title,
+article > header > h1,
+article .propertyfinders-results h1,
+article > .row-fluid > .span12 > p,
+.widget_bapi_similar_properties .widget-title,
+.other-detail-page article > h3{color:#fff;}
+
+/* links and detail string plus arrow */
+a,
+.widget_bapi_featured_properties .property-link span,
+.widget_bapi_similar_properties .property-link span,
+.portal-info a.property-link span,
+.portal-info a.detail-link span,
+.item-snapshot .nav-links a span,
+.gallery-view-page .portal-info a.property-link span{color:#000;}
+
+.widget_bapi_specials_widget .special-title{font-size:17px;}
+.widget_bapi_specials_widget .special-sum{font-size:13px;}
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content p{color:#333;font-size:16px;line-height:200%;}
+
+/* fixes theme03 
+-------------------------------------*/
+
+.instatheme03 .home-slideshow{border:none;}
+.instatheme03 #insta-header {padding:0;}
+
+.instatheme03 .widget_bapi_property_finders h3 {color:#336699 !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#336699 !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#336699 !important;}
+.instatheme03 h3 {color:#336699;}
+.instatheme03 .widget_bapi_specials_widget .widget-title .glyphicons{color:#336699;}
+.instatheme03 .mihp-content h1{color:#336699;}
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#FFFFFF;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #FFFFFF;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #FFFFFF;}
+.instatheme03 #insta-footer .nav h3{color:#FFFFFF;}
+.instatheme03 #insta-footer .nav li a{color:#FFFFFF;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#FFFFFF;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#FFFFFF;}
+
+/* fixes theme05
+-------------------------------------*/
+body.instatheme05{background-position:left -100px;}
+.instatheme05 #insta-header .bgwhite{background:none;}
+.instatheme05 .home-slideshow{border:none;}
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#005299;border-color:#005299;color:#fff;}
+.instatheme05 .testimonial{border-bottom:1px solid #d4d4d4;}
+.instatheme05 #insta-footer{background:transparent;color:#fff;}
+.instatheme05 #insta-footer a,.instatheme05 .widget_bapi_footer .footer-links a{color:#fff;}
+.home.instatheme05 .widget_bapi_featured_properties .widget-title,.home.instatheme05 .widget_bapi_property_finders .widget-title{color:#000;}
+
+
+/* fixes theme06 
+-------------------------------------*/
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #338ad6; /* Old browsers */
+background: -moz-linear-gradient(top,  #338ad6 0%, #006dcc 5%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#338ad6), color-stop(5%,#006dcc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #338ad6 0%,#006dcc 5%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #338ad6 0%,#006dcc 5%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #338ad6 0%,#006dcc 5%); /* IE10+ */
+background: linear-gradient(to bottom,  #338ad6 0%,#006dcc 5%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#338ad6', endColorstr='#006dcc',GradientType=0 ); /* IE6-9 */
+border-color: #005299;}
+.instatheme06 .widget_bapi_featured_properties .widget-title,.instatheme06 .widget_insta_latest_blog_posts .widget-title, .instatheme06 .MR_Social_Sharing_Toolkit_Widget .widget-title,.instatheme06 .widget_bapi_specials_widget .widget-title, .instatheme06 .hp-testimonials h3,.instatheme06 .widget_bapi_property_finders .widget-title{color:#336699;}
+.instatheme06 #insta-footer .nav li a,.instatheme06 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#fff;}
+.instatheme06 #insta-footer .nav h3,.instatheme06 .widget_bapi_footer .footer-links a{color:#fff;}
+.instatheme06 .widget_bapi_footer{border-top:1px solid #fff;}
+
+/* fixes theme07 
+-------------------------------------*/
+.instatheme07 .home-slideshow{border:none;margin-bottom:0;}
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#ddd;}
+.instatheme07 .home-qsearch span.cal-icon-trigger{color:#006DCC;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#006DCC;}
+
+.home.instatheme07 .pushdown{background:url("images/bg.jpg") repeat-x left top #748ca4;padding-top:25px;}
+.home.custom-background.instatheme07 .pushdown{background:none;}
+
+/* outside main titles and text */
+.home.instatheme07 .widget_bapi_featured_properties .widget-title,
+.home.instatheme07 .widget_bapi_property_finders .widget-title,
+.instatheme07 article > header > h1,
+.instatheme07 article .propertyfinders-results h1,
+.instatheme07 article > .row-fluid > .span12 > p,
+.instatheme07 .widget_bapi_similar_properties .widget-title,
+.instatheme07 .other-detail-page article > h3{color:#333;}
+
+/* fixes theme08 
+-------------------------------------*/
+.instatheme08 .home-qsearch #bapi-search{background:#000;}
+.instatheme08 .bottom-full-home h3{background-image:url("images/bg-title-h3-black.png");}
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#ddd;}
+.instatheme08 .home-qsearch span.cal-icon-trigger{color:#005299;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#005299;}
+.instatheme08 .home-slideshow{border:none;}
+.instatheme08 .hp-content{background:none;}
+.instatheme08 .testimonials h2{color:#222;}
+.instatheme08 .testimonials .author h3{color:#000;}
+.instatheme08 .block-photo img,.instatheme08 .testimonials .content{background:#fff;}
+.instatheme08 .bottom-full-home h3 span{background:#748ca4;}
+.instatheme08 .home-slideshow{margin-bottom:0;}
+.home.instatheme08 .pushdown{background:url("images/bg.jpg") repeat-x left top #748ca4;padding-top:25px;}
+.home.custom-background.instatheme08 .pushdown{background:none;}
+
+
+/* fixes theme09 
+-------------------------------------*/
+.instatheme09 .widget_bapi_weather_widget{background:none;}
+.instatheme09 .hp-content h1, .instatheme09 .widget_bapi_featured_properties .widget-title, .instatheme09 .widget_bapi_property_finders .widget-title, .instatheme09 .widget-title .glyphicons{color:#336699;}
+.instatheme09 {background:none!important;}
+.instatheme09 .pushdown{background: url("images/bg.jpg") repeat-x left top #748ca4;margin-top:0px;padding-top:20px;}
+
+

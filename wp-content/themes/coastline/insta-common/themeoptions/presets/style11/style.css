@@ -1,0 +1,169 @@
+/*
+* Preset: style11
+* Preset Name: European City
+*/
+body{background:url("images/bg.jpg") repeat-x left top #fff;}
+body.custom-background{background:none;}
+a{color:#5FC7C1;}
+
+#insta-header{background:none;padding: 20px 20px 0;}
+
+/* all boxes background */
+.widget_bapi_inquiry_form,
+.widget_bapi_hp_search,
+.widget_bapi__search,
+.widget_bapi_weather_widget,
+.widget_bapi_specials_widget,
+.widget_recent_entries,
+.widget_bapi_similar_properties .fp-featured,
+.widget_bapi_featured_properties .fp-featured,
+.widget_bapi_property_finders .pf-featured,
+.item-result .item-info,
+.list-view-page .portal-inner,
+.development-results .portal-inner,
+.portal-info,
+.module,
+.default-page .row-fluid > .span9, .static-page .full-width-page .row-fluid > .span12, .static-page .other-detail-page .row-fluid > .span9, .static-page .other-detail-page .row-fluid > .span6, .static-page .content-page .row-fluid > .span12, .static-page .content-page .row-fluid > .span9, .static-page .content-page .row-fluid > .span6, .static-page .property-detail-page .row-fluid > .span6, .static-page .property-detail-page .row-fluid > .span9, .static-page .search-page .row-fluid > .span12, .static-page .search-page .row-fluid > .span9, .static-page .search-page .row-fluid > .span6
+{background-color:#F8F8F8}
+
+/* bottom block of the slideshow where the thumbnails are and active tab*/
+.item-slideshow .flexslider,.item-info .nav-tabs > .active > a{background-color:#F8F8F8;}
+.item-info .nav-tabs > .active > a, .item-info .nav-tabs > .active > a:hover{border-bottom-color:#F8F8F8;}
+
+/* detail string plus arrow */
+.widget_bapi_featured_properties .property-link span,
+.widget_bapi_similar_properties .property-link span,
+.portal-info a.property-link span,
+.portal-info a.detail-link span,
+.item-snapshot .nav-links a span{color:#fff;}
+.widget_bapi_featured_properties .property-link, 
+.widget_bapi_similar_properties .property-link,
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.gallery-view-page .portal-info a.property-link,
+.item-snapshot .nav-links a
+{background-color:#5fc8c2;line-height:26px;margin-top:13px;min-width:80px;text-align:center;color:#fff;}
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.item-snapshot .nav-links a{display:inline-block;line-height:19px;margin-top:5px;margin-left:5px;}
+.item-snapshot .nav-links a{padding:0 10px;}
+
+
+.widget_bapi_featured_properties .fp-rates,
+.widget_bapi_similar_properties .fp-rates{font-size:15px;}
+.widget_bapi_featured_properties .fp-rates .prefix,
+.widget_bapi_similar_properties .fp-rates .prefix{display:none;}
+
+/* all main titles */
+.contact-form .widget-title,
+.widget_bapi_hp_search .widget-title,
+.widget .widget-title,
+.widget_bapi_property_finders .pf-outer .pf-title,
+.widget_bapi_featured_properties .fp-title a,
+.widget_bapi_similar_properties .fp-title a,
+.list-view-page .property-info h2,
+.development-results .portal-info h2,
+.list-view-page .property-info h2 a,
+.development-results .portal-info h2 a,
+.gallery-view-page .property-title a,
+.item-result .item-info .title,
+.item-result .item-info .title a,
+.item-snapshot .left-side h2.title,
+.bapi-inquiryform h3,
+.other-detail-page .title,
+.development-details h3,.specials-contact-details h3,.poi-contact-details h3,
+.post-title a,.post-title,.archive-title,article > header > h1,article .propertyfinders-results h1,.contact-right-side h3,
+.bapi-bookingform h1,.booking-form legend,.modal-header h3,.booking-page .notes_2,.booking-page .headset{color:#EA244A;}
+
+.widget_bapi_specials_widget .special-title{font-size:17px;color:#EA244A;}
+.widget_bapi_specials_widget .special-sum{font-size:13px;color:#000;}
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content h1,.hp-content h2,.hp-content h3{color:#EA244A;}
+.hp-content p{color:#333;font-size:16px;line-height:200%;}
+
+/* fixes theme04 
+------------------------------------------------*/
+.instatheme04 .insta-bottom-left-home .widget_bapi_featured_properties .property-link{ line-height:26px;margin-top:0;}
+
+/* fixes theme02 
+------------------------------------------------*/
+.instatheme02 #insta-header > .maintainer,.instatheme02 #main{background-color:#f8f8f8;}
+
+/* fixes theme03 
+------------------------------------------------*/
+
+.instatheme03 #insta-header{padding:0;}
+
+.instatheme03 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#5fc8c2;border-color:#5fc8c2;}
+.instatheme03 #bapi_hp_search-2{background:none;}
+.instatheme03 .mihp-content h1{color:#EA244A;}
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#333333;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #999999;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #999999;}
+.instatheme03 #insta-footer .nav h3{color:#EA244A;}
+.instatheme03 #insta-footer .nav li a{color:#333333;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#333333;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#333333;}
+
+/* fixes theme05
+-------------------------------------*/
+.home.instatheme05 #page{background:url("images/bg.jpg") repeat-x left top;}
+.home.instatheme05 #page .bgwhite{background-color:rgb(248,248,248);
+-moz-box-shadow:0px 0px 5px rgba(0,0,0,0.1);
+-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.1);
+box-shadow:0px 0px 5px rgba(0,0,0,0.1);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#1a000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#1a000000,Positive=true);}
+.instatheme05 #insta-header .bgwhite{background:none;}
+/* qs button */
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#5fc8c2;border-color:#5fc8c2;color:#fff;}
+.home.instatheme05 .widget_bapi_featured_properties .fp-title a{color:#5FC7C1;}
+.home.instatheme05 .widget_bapi_featured_properties .fp-featured,.home.instatheme05 .widget_bapi_specials_widget .special-image,.home.instatheme05 .widget_bapi_property_finders .pf-image{background-color:#fff;}
+.instatheme05 .testimonial{border-bottom:1px solid #d4d4d4;}
+/* footer */
+.instatheme05 #insta-footer{background:transparent;color:#333;}
+.instatheme05 #insta-footer a,.instatheme05 #insta-footer .widget_bapi_footer .footer-links a{color:#333;}
+
+/* fixes theme06 
+------------------------------------------------*/
+.instatheme06 .widget_bapi_hp_search,.instatheme06 .widget_bapi_specials_widget{background:none;}
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#5fc8c2;border-color:#5fc8c2;}
+.instatheme06 .hp-testimonials h3, .instatheme06 #insta-footer .nav h3{color:#EA244A;}
+.instatheme06 .widget_bapi_featured_properties .fp-title a,.instatheme06 .widget_bapi_specials_widget .special-title, .instatheme06 .widget_bapi_property_finders .pf-outer .pf-title,.instatheme06 .widget_bapi_footer .footer-links a{color:#5333;}
+.instatheme06 .widget_bapi_property_finders .pf-featured{background:#FFF;}
+
+/* fixes theme07 
+------------------------------------------------*/
+.home.instatheme07 .span3 .MR_Social_Sharing_Toolkit_Follow_Widget{background-color:#F8F8F8}
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme07 .home-qsearch span.cal-icon-trigger{color:#5FC8C2;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#5FC8C2;}
+
+.home.instatheme07 .pushdown{background:url("images/bg.jpg") repeat-x left top;padding-top:25px;}
+.home.custom-background.instatheme07 .pushdown{background-image:none;}
+.instatheme07 .home-slideshow{margin-bottom:0;}
+
+/* fixes theme08 
+------------------------------------------------*/
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme08 .home-qsearch span.cal-icon-trigger{color:#5FC8C2;}
+.instatheme08 .home-qsearch #bapi-search{background:#000;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#5FC8C2;}
+.instatheme08 .hp-content{background:none;}
+.instatheme08 .testimonials .author h3{color:#5FC8C2;}
+.instatheme08 .bottom-full-home h3{background-image:url("images/bg-title-h3-black.png");}
+.home.instatheme08 .pushdown{background:url("images/bg.jpg") repeat-x left top;padding-top:25px;}
+.home.custom-background.instatheme08 .pushdown{background-image:none;}
+.instatheme08 .home-slideshow{margin-bottom:0;}
+
+
+/* fixes theme09 
+------------------------------------------------*/
+.instatheme09 #insta-header{background:#fff;}
+.instatheme09 .widget_bapi_weather_widget{background:none;}
+.instatheme09 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#5fc8c2;border-color:#5fc8c2;}
+.instatheme09 .widget_bapi_specials_widget .special-title, .instatheme09 .widget_bapi_property_finders .pf-outer .pf-title{color:#000000;}
+.instatheme09 .widget_bapi_specials_widget, .instatheme09 .widget_bapi_property_finders .pf-featured, .instatheme09 .widget_bapi_featured_properties .fp-featured, .instatheme09 .module{background:#fff;}
+.instatheme09 .pushdown{background:url("images/bg.jpg") repeat-x left top;margin-top:0px;padding-top:20px;}
+

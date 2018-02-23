@@ -1,0 +1,303 @@
+/*
+* Preset: style12
+* Preset Name: Desert
+*/
+body{background:url("images/bg.jpg") repeat left top;}
+body.custom-background{background:none;}
+#insta-header{background:none;padding: 20px 20px 0;}
+
+#insta-top-fixed,#insta-footer, #insta-bottom-fixed{background:url("images/bg_insta-top-fixed.jpg") repeat left top;color:#fff;}
+
+#insta-top-fixed .navbar-inverse .brand,
+#insta-top-fixed .navbar-inverse .nav > li > a,
+#insta-top-fixed .navbar-inverse .nav > li > a:focus,
+#insta-top-fixed .navbar-inverse .nav > li > a:hover{color:#fff;text-shadow:none;}
+#insta-top-fixed .navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+#insta-top-fixed .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+#insta-top-fixed .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle{background:none;}
+#insta-top-fixed .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+#insta-top-fixed .navbar-inverse .nav li.dropdown > a:hover .caret,
+#insta-top-fixed .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+#insta-top-fixed .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+#insta-top-fixed .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret,
+#insta-top-fixed .top-links .caret{border-bottom-color:#fff;border-top-color:#fff;}
+
+/* links */
+a{color:#F28411;}
+
+/* all main titles */
+.contact-form .widget-title,
+.widget_bapi_hp_search .widget-title,
+.widget .widget-title,
+.widget_bapi_property_finders .pf-outer .pf-title,
+.widget_bapi_featured_properties .fp-title a,
+.widget_bapi_similar_properties .fp-title a,
+.list-view-page .property-info h2,
+.development-results .portal-info h2,
+.list-view-page .property-info h2 a,
+.development-results .portal-info h2 a,
+.gallery-view-page .property-title a,
+.item-result .item-info .title,
+.item-result .item-info .title a,
+.item-snapshot .left-side h2.title,
+.bapi-inquiryform h3,
+.other-detail-page .title,
+.development-details h3,.specials-contact-details h3,.poi-contact-details h3,
+.post-title a,.post-title,.archive-title,.contact-right-side h3,
+.bapi-bookingform h1,.booking-form legend,.modal-header h3,.booking-page .notes_2,.booking-page .headset{color:#4C7174;}
+
+/* outside main titles and text */
+.home .widget_bapi_featured_properties .widget-title,
+.home .widget_bapi_property_finders .widget-title,
+.widget_bapi_similar_properties .widget-title,
+article > header > h1,
+article .propertyfinders-results h1,
+article > .row-fluid > .span12 > p,
+.widget_bapi_similar_properties .widget-title,
+.other-detail-page article > h3{color:#fff;}
+
+.static-page article > .row-fluid > .span12 > p{color:#333;}
+
+.widget_bapi_hp_search .widget-title,
+.widget .widget-title{font-family:"Times New Roman", Times, serif;}
+
+/* detail string plus arrow */
+.widget_bapi_featured_properties .property-link span,
+.widget_bapi_similar_properties .property-link span,
+.portal-info a.property-link span,
+.portal-info a.detail-link span,
+.item-snapshot .nav-links a span{color:#fff;}
+.widget_bapi_featured_properties .property-link, 
+.widget_bapi_similar_properties .property-link,
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.gallery-view-page .portal-info a.property-link,
+.item-snapshot .nav-links a
+{background-color:#F28411;line-height:26px;margin-top:13px;min-width:80px;text-align:center;color:#fff;}
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.item-snapshot .nav-links a{display:inline-block;line-height:19px;margin-top:5px;margin-left:5px;}
+.item-snapshot .nav-links a{padding:0 10px;}
+
+/* all boxes background */
+.widget_bapi_inquiry_form,
+.widget_bapi_hp_search,
+.widget_bapi__search,
+.widget_bapi_weather_widget,
+.widget_bapi_specials_widget,
+.widget_recent_entries,
+.widget_bapi_similar_properties .fp-featured,
+.widget_bapi_featured_properties .fp-featured,
+.widget_bapi_property_finders .pf-featured,
+.item-result .item-info,
+.list-view-page .portal-inner,
+.development-results .portal-inner,
+.portal-info,
+.module,
+.default-page .row-fluid > .span9,
+.static-page .full-width-page .row-fluid > .span12,
+.static-page .other-detail-page .row-fluid > .span9,
+.static-page .other-detail-page .row-fluid > .span6,
+.static-page .content-page .row-fluid > .span12,
+.static-page .content-page .row-fluid > .span9,
+.static-page .content-page .row-fluid > .span6,
+.static-page .property-detail-page .row-fluid > .span6,
+.static-page .property-detail-page .row-fluid > .span9,
+.static-page .search-page .row-fluid > .span12,
+.static-page .search-page .row-fluid > .span9,
+.static-page .search-page .row-fluid > .span6
+{background-color:#F8F6E8;border:1px solid #EDE8C2;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+
+.list-view-page .portal-info, .development-results .portal-info{border:none;}
+.item-result .item-info{border-top:none;}
+
+/* bottom block of the slideshow where the thumbnails are */
+.item-slideshow .flexslider,.item-info .nav-tabs > .active > a{background-color:#F8F6E8;}
+.item-info .nav-tabs > .active > a, .item-info .nav-tabs > .active > a:hover{border-bottom-color:#F8F6E8;}
+
+.widget_bapi_featured_properties .fp-rates,
+.widget_bapi_similar_properties .fp-rates{font-size:15px;}
+.widget_bapi_similar_properties .fp-rates .prefix{display:none;}
+
+.widget_bapi_specials_widget .special-title{font-size:17px;color:#4C7174;}
+.widget_bapi_specials_widget .special-sum{font-size:13px;}
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content h1,.hp-content h2,.hp-content h3{color:#4C7174;}
+.hp-content p{color:#333;font-size:16px;line-height:200%;}
+
+/* fixes theme02 
+--------------------------------*/
+.instatheme02 #insta-header{padding-top:0;}
+.instatheme02 .widget_bapi_featured_properties .fp-details,
+.instatheme02 .widget_bapi_featured_properties .fp-rates{color:#333}
+.instatheme02 .widget_bapi_featured_properties .fp-outer{background:none;}
+.home.instatheme02 .widget_bapi_featured_properties .widget-title,
+.home.instatheme02 .widget_bapi_property_finders .widget-title,
+.instatheme02 article > header > h1,
+.instatheme02 article .propertyfinders-results h1,
+.instatheme02 article > .row-fluid > .span12 > p,
+.instatheme02 .other-detail-page article > h3{color:#333;}
+
+.instatheme02 #insta-header > .maintainer,.instatheme02 #main{background-color:#F8F6E8;border:1px solid #EDE8C2;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.instatheme02 #main{border-top:none;}
+
+/* all boxes background */
+.instatheme02 .widget_bapi_inquiry_form,
+.instatheme02 .widget_bapi_hp_search,
+.instatheme02 .widget_bapi__search,
+.instatheme02 .widget_bapi_weather_widget,
+.instatheme02 .widget_bapi_specials_widget,
+.instatheme02 .widget_recent_entries,
+.instatheme02 .widget_bapi_similar_properties .fp-featured,
+.instatheme02 .widget_bapi_featured_properties .fp-featured,
+.instatheme02 .widget_bapi_property_finders .pf-featured,
+.instatheme02 .item-result .item-info,
+.instatheme02 .list-view-page .portal-inner,
+.instatheme02 .development-results .portal-inner,
+.instatheme02 .portal-info,
+.instatheme02 .module,
+.instatheme02 .static-page .full-width-page .row-fluid > .span12,
+.instatheme02 .static-page .other-detail-page .row-fluid > .span9,
+.instatheme02 .static-page .other-detail-page .row-fluid > .span6,
+.instatheme02 .static-page .content-page .row-fluid > .span12,
+.instatheme02 .static-page .content-page .row-fluid > .span9,
+.instatheme02 .static-page .content-page .row-fluid > .span6,
+.instatheme02 .static-page .property-detail-page .row-fluid > .span6,
+.instatheme02 .static-page .property-detail-page .row-fluid > .span9,
+.instatheme02 .static-page .search-page .row-fluid > .span12,
+.instatheme02 .static-page .search-page .row-fluid > .span9,
+.instatheme02 .static-page .search-page .row-fluid > .span6
+{background-color:none;border:none;-moz-box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+-webkit-box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+box-shadow:0px 0px 3px rgba(0,0,0,0.1);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#1a000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=0,Color=#1a000000,Positive=true);}
+
+.instatheme02 #insta-top-fixed .widget_bapi_weather_widget,
+.instatheme02 .booking-page .notes_2,
+.instatheme02 .booking-page .headset,
+.instatheme02 .list-view-page .portal-info,
+.instatheme02 .development-results .portal-info,
+.instatheme02 .default-page .row-fluid > .span9{border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.instatheme02 .widget_bapi_similar_properties .widget-title{color:#4C7174;}
+
+/* fixes theme03 
+------------------------------------------------*/
+.instatheme03 #insta-header{padding:0;}
+.instatheme03 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#F28411;border-color:#f28411;}
+.instatheme03 .widget_bapi_hp_search{box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;padding:0; margin:0; background:none; border:none;}
+.instatheme03 .widget_bapi_property_finders h3 {color:#4C7174 !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#4C7174 !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#4C7174 !important;}
+.instatheme03 h3 {color:#4C7174;}
+.instatheme03 .mihp-content h1{color:#4C7174;}
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#FFFFFF;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #999999;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #999999;}
+.instatheme03 #insta-footer .nav h3{color:#FFFFFF ;}
+.instatheme03 #insta-footer .nav li a{color:#FFFFFF;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#FFFFFF;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#FFFFFF;}
+
+/* fixes theme05
+-------------------------------------*/
+.instatheme05 #insta-header,.instatheme05 #insta-header a{color:#fff;}
+.instatheme05 #insta-header .top-links .caret{border-bottom-color:#fff;border-top-color:#fff;}
+.instatheme05 #insta-header .top-links .dropdown-menu a{color:#000;}
+.instatheme05 #insta-header .top-links #wishListLink .halflings i:before,.instatheme05 #insta-header .top-links .dropdown-menu a:hover{color:#fff;}
+.instatheme05 #insta-header .bgwhite{background:none;}
+/* qs button */
+.instatheme05 .home-qsearch .search-button-block .quicksearch-dosearch{background:#f28411;border-color:#f28411;color:#fff;}
+
+.home.instatheme05 .widget_bapi_featured_properties .fp-featured,.home.instatheme05 .widget_bapi_specials_widget .special-image,.home.instatheme05 .widget_bapi_property_finders .pf-image{background-color:#fff;}
+.instatheme05 .testimonial{border-bottom:1px solid #d4d4d4;}
+
+/* menu color */
+.instatheme05 .navbar-inner{background:url("images/bg_insta-top-fixed.jpg") repeat-x left top;border:none;}
+.instatheme05 .navbar-inverse .nav > li > a:hover,
+.instatheme05 .navbar-inverse .nav li.dropdown.open > .dropdown-toggle{background:none;color:#fff;text-shadow:none;}
+
+.instatheme05 .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+.instatheme05 .navbar-inverse .nav li.dropdown > a:hover .caret,
+.instatheme05 .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.instatheme05 .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.instatheme05 .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret
+{border-bottom-color:#fff;border-top-color:#fff;}
+
+.home.instatheme05 .widget_bapi_hp_search{background:#fff;-moz-box-shadow:0px 7px 4px rgba(0,0,0,0.65);
+-webkit-box-shadow:0px 7px 4px rgba(0,0,0,0.65);
+box-shadow:0px 7px 4px rgba(0,0,0,0.65);
+-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=7,Color=#a6000000,Positive=true)";
+filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=7,Color=#a6000000,Positive=true);border:none;}
+.instatheme05 .home-qsearch h3.title{color:#4C7174;font-family:"Times New Roman", Times, serif;}
+.home.instatheme05 .widget_bapi_featured_properties .widget-title,.home.instatheme05 .widget_bapi_property_finders .widget-title{color:#4C7174;}
+
+.home.instatheme05 .widget_bapi_featured_properties .fp-featured{border:5px solid #e5e5e5;}
+.instatheme05 .hp-content,.instatheme05 .widget_bapi_specials_widget,.instatheme05 .widget_bapi_property_finders .pf-featured{background-color:transparent;border:none;}
+.instatheme05 .hp-content h1,.instatheme05 .hp-content h2,.instatheme05 .hp-content h3{font-family:"Times New Roman", Times, serif;}
+.instatheme05 .hp-content p{color:#666}
+.home.instatheme05 .widget_bapi_specials_widget .widget-title .glyphicons{background:none;}
+
+/* footer */
+.instatheme05 #insta-footer{background:transparent;color:#fff;}
+.instatheme05 #insta-footer a,.instatheme05 #insta-footer .widget_bapi_footer .footer-links a{color:#fff;}
+
+
+/* fixes theme06 
+------------------------------------------------*/
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#F28411;border-color:#f28411;}
+.instatheme06 .widget_bapi_hp_search, .instatheme06 .widget_bapi_featured_properties .fp-featured, .instatheme06 .widget_bapi_specials_widget, .instatheme06 .widget_bapi_property_finders .pf-featured{background:none;border:none;}
+.instatheme06 .widget_bapi_featured_properties .widget-title, .instatheme06 .hp-testimonials h3, .instatheme06 .widget_bapi_property_finders .widget-title{color:#4C7174;}
+.instatheme06 .footer-info{box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+.instatheme06 #insta-footer{background:none;}
+.instatheme06 #insta-footer .nav h3, .instatheme06 .widget_bapi_footer .footer-links a{color:#FFF;}
+.instatheme06 #insta-footer .nav li a, .instatheme06 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#fff;}
+
+
+/* fixes theme07 
+------------------------------------------------*/
+.instatheme07 .home-qsearch .widget_bapi_hp_search{border:none;}
+.home.instatheme07 .span3 .MR_Social_Sharing_Toolkit_Follow_Widget{background-color:#F8F6E8;border:1px solid #EDE8C2;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.instatheme07 .nav-footer ul li a{color:#fff;}
+.instatheme07 .nav-footer h5,
+.instatheme07 .nav-footer .mr_social_sharing_wrapper{border-top-color:#fff;}
+.instatheme07 .nav-footer{border-bottom-color:#fff;}
+.instatheme07 #nav-menu-item-39 .main-menu-link{background:none;text-indent:0;}
+.instatheme07 #insta-footer{background-repeat:repeat;}
+
+.instatheme07 .booking-page .notes_2,
+.instatheme07 .booking-page .headset,
+.instatheme07 .list-view-page .portal-info,
+.instatheme07 .development-results .portal-info,
+.instatheme07 .default-page .row-fluid > .span9{border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#fff;}
+
+/* fixes theme08 
+------------------------------------------------*/
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before{color:#fff;}
+.instatheme08 .widget_bapi_hp_search{border:none;}
+.instatheme08 .home-qsearch #bapi-search{background:#000;}
+.instatheme08 .home-qsearch span.cal-icon-trigger{color:#F28411;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#F28411;}
+.instatheme08 .hp-content{background:none;border:none;}
+.instatheme08 .block-photo img,.instatheme08 .testimonials .content{background:#fff;}
+.instatheme08 .hp-content h1,.instatheme08 .hp-content p,.instatheme08 .block-photo,.instatheme08 .block-photo h3,.instatheme08 .testimonials h1,.instatheme08 .testimonials h2,.instatheme08 .testimonials .author h3,.instatheme08 .testimonials .author p{color:#fff;}
+.instatheme08 .bottom-full-home h3,.instatheme08 .bottom-full-home h3 span{background:none;color:#fff;}
+
+
+/* fixes theme09 
+------------------------------------------------*/
+.instatheme09 #insta-header{background:#fff;}
+.instatheme09 .widget_bapi_weather_widget{background:none;border:none!important;}
+.instatheme09 .widget_bapi_hp_search{border:none!important;}
+.instatheme09 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background:#F28411;border-color:#f28411;}
+.instatheme09 .navbar-inverse .navbar-inner, .instatheme09 #navigation{background:url("images/bg_insta-top-fixed.jpg") repeat left top;}
+.instatheme09 .navbar-inverse .nav li.dropdown.open>.dropdown-toggle{background:none;}
+.instatheme09 .widget_bapi_featured_properties .widget-title, .instatheme09 .widget_bapi_property_finders .widget-title{color:#4C7174;}
+.instatheme09 .module, .instatheme09 .widget_bapi_featured_properties .fp-featured, .instatheme09 .widget_bapi_property_finders .pf-featured, .instatheme09 .widget_bapi_specials_widget{background:none;border:none;}
+.instatheme09 .pushdown{background:url("images/bg.jpg") repeat left top;margin-top:0px;padding-top:20px;}
+

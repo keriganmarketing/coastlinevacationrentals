@@ -1,0 +1,134 @@
+/*
+* Preset: style02
+* Preset Name: Luxury Interiors
+*/
+a{color:#545454;}
+
+/* all main titles */
+.contact-form .widget-title,
+.widget_bapi_hp_search .widget-title,
+.widget .widget-title,
+.widget_bapi_property_finders .pf-outer .pf-title,
+.widget_bapi_featured_properties .fp-title a,
+.widget_bapi_similar_properties .fp-title a,
+.list-view-page .property-info h2,
+.development-results .portal-info h2,
+.list-view-page .property-info h2 a,
+.development-results .portal-info h2 a,
+.gallery-view-page .property-title a,
+.item-result .item-info .title,
+.item-result .item-info .title a,
+.item-snapshot .left-side h2.title,
+.bapi-inquiryform h3,
+.other-detail-page .title,
+.development-details h3,.specials-contact-details h3,.poi-contact-details h3,
+.post-title a,.post-title,.archive-title,article > header > h1,article .propertyfinders-results h1,.contact-right-side h3,.bapi-bookingform h1,.booking-form legend,.modal-header h3,.booking-page .notes_2,.booking-page .headset{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;color:#222;}
+
+/* links and detail string plus arrow */
+a,
+.widget_bapi_featured_properties .property-link, 
+.widget_bapi_similar_properties .property-link,
+.widget_bapi_featured_properties .property-link span,
+.widget_bapi_similar_properties .property-link span,
+.portal-info a.property-link,
+.portal-info a.detail-link,
+.portal-info a.property-link span,
+.portal-info a.detail-link span,
+.item-snapshot .nav-links a,
+.item-snapshot .nav-links a span,
+.gallery-view-page .portal-info a.property-link{color:#000;}
+
+
+.widget_bapi_hp_search .widget-title .glyphicons i:before,
+.widget_bapi_weather_widget .widget-title .glyphicons i:before,
+.widget_bapi_specials_widget .widget-title .glyphicons i:before
+{display:none;}
+
+.widget_bapi_hp_search .widget-title .glyphicons,
+.widget_bapi_weather_widget .widget-title .glyphicons,
+.widget_bapi_specials_widget .widget-title .glyphicons
+{padding-left:0;}
+
+/* home page content */
+.hp-content{padding:35px;}
+.hp-content p{color:#666;font-size:18px;line-height:150%;}
+
+/* fixes theme02 
+--------------------------*/
+.instatheme02 .widget_bapi_featured_properties .fp-title a{color:#fff;}
+.instatheme02 #insta-top-fixed .widget_bapi_weather_widget .widget-title{color:#000;}
+.instatheme02 #insta-top-fixed .widget_bapi_weather_widget .widget-title .glyphicons i:before{color:#fff;display:inline;}
+
+body.custom-background{background-image:none;}
+
+/* fixes theme03 
+-------------------------------------*/
+body {background-color:#EDEDED;word-wrap: break-word;}
+.instatheme03 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #999999; /* Old browsers */
+background: -moz-linear-gradient(top,  #999999 0%, #555555 7%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(7%,#555555)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #999999 0%,#555555 7%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #999999 0%,#555555 7%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #999999 0%,#555555 7%); /* IE10+ */
+background: linear-gradient(to bottom,  #999999 0%,#555555 7%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#555555',GradientType=0 ); /* IE6-9 */
+border-color:#333;}
+.instatheme03 .widget_bapi_weather_widget h3{padding-left:10px;}
+.instatheme03 .widget_bapi_property_finders h3 {color:#222222 !important;}
+.instatheme03 .widget_bapi_featured_properties h3 {color:#222222 !important;}
+.instatheme03 .widget_bapi_weather_widget h3 {color:#222222 !important;}
+.instatheme03 h3 {color:#222222;}
+.instatheme03 .widget_bapi_specials_widget .widget-title .glyphicons{color:#222222;}
+.instatheme03 .mihp-content h1{color:#222222;}
+.instatheme03 #insta-footer {background: none;}
+.instatheme03 #footerout{background:none; color:#333333;}
+.instatheme03 #footerout .span12 .span3 {border-top:1px solid #999999;}
+.instatheme03 .widget_bapi_footer{border-top:1px solid #999999;}
+.instatheme03 #insta-footer .nav h3{color:#212121;}
+.instatheme03 #insta-footer .nav li a{color:#333333;}
+.instatheme03 .widget_bapi_footer .footer-links a{color:#333333;}
+.instatheme03 #insta-footer .MR_Social_Sharing_Toolkit_Follow_Widget div.mr_social_sharing_top a{color:#333333;}
+
+
+/* fixes theme06 
+-------------------------------------*/
+.instatheme06 .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #999999; /* Old browsers */
+background: -moz-linear-gradient(top,  #999999 0%, #555555 7%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(7%,#555555)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #999999 0%,#555555 7%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #999999 0%,#555555 7%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #999999 0%,#555555 7%); /* IE10+ */
+background: linear-gradient(to bottom,  #999999 0%,#555555 7%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#555555',GradientType=0 ); /* IE6-9 */
+border-color:#333;}
+.instatheme06 .hp-testimonials h3{color:#222;}
+.instatheme06 #insta-footer .nav h3{color:#212121;}
+
+
+/* fixes theme07 
+-------------------------------------*/
+.instatheme07 .nav-footer h5{color:#fff;}
+.instatheme07 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme07 .home-qsearch span.cal-icon-trigger{color:#bbb;}
+.instatheme07 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#bbb;}
+
+
+/* fixes theme08 
+-------------------------------------*/
+.instatheme08 #insta-top-fixed ul.nav .glyphicons.home i:before,.instatheme08 .home-qsearch span.cal-icon-trigger{color:#bbb;}
+.instatheme08 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background-color:#bbb;}
+
+
+/* fixes theme09 
+-------------------------------------*/
+.instatheme09 .home-qsearch .widget_bapi_hp_search .search-button-block .quicksearch-dosearch{background: #999999; /* Old browsers */
+background: -moz-linear-gradient(top,  #999999 0%, #555555 7%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999999), color-stop(7%,#555555)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #999999 0%,#555555 7%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #999999 0%,#555555 7%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #999999 0%,#555555 7%); /* IE10+ */
+background: linear-gradient(to bottom,  #999999 0%,#555555 7%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#555555',GradientType=0 ); /* IE6-9 */border-color:#333;}
+.instatheme09 .widget_bapi_specials_widget .widget-title .glyphicons i:before{display:inline;}
+.instatheme09 .widget_bapi_specials_widget .widget-title .glyphicons{padding-left:35px!important;}
+.instatheme09 .pushdown{background:#7e7e7e;margin-top:0px;padding-top:20px;}
+

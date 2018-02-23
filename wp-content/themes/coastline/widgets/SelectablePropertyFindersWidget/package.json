@@ -1,0 +1,15 @@
+{
+  "name": "selectable-property-finders",
+  "version": "1.0.0",
+  "description": "Select property finders",
+  "main": "init.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "property",
+    "finders"
+  ],
+  "author": "Jairo E. Vengoechea",
+  "license": "ISC"
+}

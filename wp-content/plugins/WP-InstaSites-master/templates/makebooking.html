@@ -1,0 +1,47 @@
+<script id="tmpl-booking-makebooking-masterlayout" type="text/html">
+{{#result}}
+<div class="module shadow-border">
+<div class="row">
+	<header class="pagination-centered pd">
+		<h1>{{textdata.Fast Secure Online Booking}}</h1>
+		<p>
+			<a href="{{&ContextData.SEO.DetailURL}}"><strong>{{Headline}}</strong></a><span class="hidden-phone">&nbsp;-&nbsp;{{Type}}
+			{{#Bedrooms}}&nbsp;/&nbsp;{{textdata.Beds}}&nbsp;{{Bedrooms}}{{/Bedrooms}}
+			{{#Bathrooms}}&nbsp;/&nbsp;{{textdata.Baths}}&nbsp;{{Bathrooms}}{{/Bathrooms}}
+			{{#Sleeps}}&nbsp;/&nbsp;{{textdata.Sleeps}}&nbsp;{{Sleeps}}{{/Sleeps}}</span>
+		</p>
+		<div class="booking-prop-img">
+			<a href="{{&ContextData.SEO.DetailURL}}"><img alt="{{PrimaryImage.Caption}}" src="{{&PrimaryImage.ThumbnailURL}}" title="Back to the Property Detail Page" style="margin: 0 auto;" /></a>
+		</div>
+	</header>	
+	<div class="booking-page bordersolid">
+		<article class="span8 booking-form">
+		<div class="form-horizontal pd">
+			<div id="renter"></div>
+			<hr />
+			<div id="creditcard"></div>
+			<hr />
+			<div id="accept"></div>
+		</div>
+		</article>
+		
+		<aside class="property-info span4 pd">
+		<div class="row-fluid">
+			<div class="span12 pd">
+				<div id="stayinfo"></div>
+				<div id="statement"></div>
+				<div id="question-support" class="item row-fluid">
+					<span class="glyphicons module headset"><i></i>{{textdata.Have a Question?}}</span>
+					<p>{{textdata.Phone}}: <span class="pull-right">{{site.phone}}</span></p>
+					<p>{{textdata.Email}}: <span class="pull-right">{{site.email}}</span></p>					
+				</div>
+			</div>
+		</div>
+		</aside>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+</div>
+{{/result}}
+</script>
